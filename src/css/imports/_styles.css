@@ -18,6 +18,9 @@
   bottom: 0;
   right: 8px;
 }
+.social-static a:focus{
+  box-shadow: none;
+}
 .social-static a {
   display: inline-block;
   padding: 3px !important;
