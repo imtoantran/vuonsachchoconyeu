@@ -22,12 +22,15 @@
   display: inline-block;
   padding: 3px !important;
   color: #2960ff;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .social-static a svg {
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.46);
 }
-@media screen and (max-width: 600px) {
-  .social-static a { width: 30px; height: 30px;}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+{
+  .social-static a { width: 90px; height: 90px;}
 }
