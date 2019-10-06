@@ -34,5 +34,5 @@
 @media only screen 
 and (max-device-width : 667px)
 {
-  .social-static a { width: 90px; height: 90px;}
+  .social-static a { width: 50px; height: 50px;}
 }
