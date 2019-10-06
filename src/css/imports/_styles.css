@@ -13,3 +13,8 @@
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
+.social-static {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
